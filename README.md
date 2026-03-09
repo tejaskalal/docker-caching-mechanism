@@ -18,3 +18,4 @@ This repository demonstrates the basic Docker workflow and helps understand how 
 - MobaXterm Tool
 ---
 
+#### Accessing the Remote Server Using MobaXterm and Instance Public IP
