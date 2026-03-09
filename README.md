@@ -37,7 +37,7 @@ All following instructions (COPY, RUN, CMD) will execute inside this directory.
 
 - COPY app.py . : Copies files from the host machine to the container filesystem.app.py is copied from the current directory of the host system. . means the file will be placed in the current working directory inside the container (/app).
 
-CMD ["python", "app.py"] :Defines the default command that runs when the container starts.It runs the Python script app.py When the container starts, Docker executes:python app.py A Dockerfile can have only one CMD instruction. If multiple CMD instructions are written, only the last one will be executed and previous ones will be ignored.
+- CMD ["python", "app.py"] :Defines the default command that runs when the container starts.It runs the Python script app.py When the container starts, Docker executes:python app.py A Dockerfile can have only one CMD instruction. If multiple CMD instructions are written, only the last one will be executed and previous ones will be ignored.
 
 #### 5.Before building container make sure both file has been created app.py and Dockerfile
 <img width="1919" height="1006" alt="Screenshot 2026-03-09 143625" src="https://github.com/user-attachments/assets/c1920335-17e4-46d9-aaf7-dbd044c0aa75" />
